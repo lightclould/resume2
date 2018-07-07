@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #f1eadd;
+    padding: 0;
+}
+#All{
+    width: 80%;
+    height: 95%;
+    margin: 20px auto;
+    border: 3px solid #de525b;
+    position: relative;
+    border-radius: 30px;
+    
+    background: #f1eadd;
+
+}
+.header{
+    width: 100%;
+    height: 20%;
+    background:url(image/pic_10.png) no-repeat;
+background-position:left center;
+background-size: 300px 150px;
+border-radius: 30px 0px;
+
+
+    
+}
+.text{
+    position: absolute;
+    right:25%;
+    color:#de525b;
+    font-family: "华文行楷";
+    font-size: 18px;
+    width: 500px;
+    line-height: 30px;
+    top:15px;
+
+}
+ 
+
+.left{
+    width: 20%;
+    height:80%;
+    background:url(image/pic_07.png) no-repeat;
+    background-position: right bottom;
+    box-sizing: border-box;
+    border-top: 3px solid #de525b;
+    border-right: 3px solid #de525b;
+    border-bottom: 1px solid #de525b;
+    background-size: 80% 300px;
+    border-radius: 0px 0px 0px 30px;
+ 
+  
+   
+}
+.left img{
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 40px;
+   height: 40px;
+   padding: 10px;
+   margin: 50px 40%;
+}
+.left ul{
+    width: 90%;
+}
+.left ul li{
+list-style: none;
+text-align: center;
+line-height: 40px;
+background: #de525b;
+display: block;
+width: 100%;
+height: 40px;
+margin: 5px 15px;
+
+}
+.left ul li a{
+text-decoration: none;
+color:#fff;
+
+}
+.left ul  li:hover{
+    color: #de525b;
+    background: rgb(243, 202, 202);
+}
+.left ul  li:hover a{
+    color: #252424;
+  
+}
+.right{
+    width: 80%;
+    height:80%;
+    border-bottom: 2px solid #de525b;
+    border-top: 3px solid #de525b;
+    box-sizing: border-box;
+    position: absolute;
+    top:20%;
+    right: 0px;
+   
+    min-width:60% ;
+    overflow: hidden;
+    background: url(image/pic_08.png) no-repeat,url(image/pic_06.png) no-repeat;
+    background-position: right bottom,right top;
+    background-size: 400px 400px,200px 200px;
+    border-radius: 0px 0px 30px 0px;
+}
+
+.right ol{
+    width: 100px;
+    height: 100px;
+}
+.right ol li{
+display:block;
+list-style: none;
+height: 700px;
+margin-bottom: 50px;
+}
+.ex p{
+    display: inline-block;
+    color: #de525b;
+    width: 1000px;
+    padding: 0px 50px;
+   
+   
+}
+.ex span{
+color: #de525b;
+width: 500px;
+height: 50px;
+display: block;
+font-size: 20px;
+text-align: center;
+margin-top: 20px;
+}
+.gexing{
+width: 80%;
+height: 80%;
+
+
+}
+
+.gexing dd{
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    margin-left: 20%;
+    line-height: 35px;
+    font-size: 20px;
+color: #666;
+    
+}
+.gexing dt{
+    color: #de525b;
+    margin-left: 30%;
+    width: 500px;
+    line-height: 35px;
+    margin-top: 30px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.zuopin{
+    width: 1200px;
+    height: 500px;
+    margin:20px auto;
+}
+.zuopin img{
+    width: 250px;
+    height: 250px;
+    float: left;
+    border: rgba(255, 255, 255, 0.007) solid 1px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+}
+.zuopin img:hover{
+outline: 1px #de525b solid;
+
+}
+b h1{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #de525b;
+ 
+
+   
+}
+b{
+    display: inline-block;
+    width: 900px;
+    border-bottom: #de525b solid 1px;
+    margin: 30px 20px;
+    height: 30px;
+    font-size: 30px;
+    font-family: "隶书";
+
+
+}
+b p{
+    margin-left: 25px;
+   
+}
